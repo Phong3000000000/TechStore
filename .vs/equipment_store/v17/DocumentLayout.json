@@ -1,0 +1,472 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PHONG\\Downloads\\equipment_store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\shared\\components\\brands\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\shared\\components\\brands\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\wwwroot\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\wwwroot\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\repository\\components\\categoriesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\repository\\components\\categoriesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\repository\\components\\brandsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\repository\\components\\brandsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\repository\\sessionextendsions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\repository\\sessionextendsions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|c:\\users\\phong\\downloads\\equipment_store\\equipment_store\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCB4B4B-5DA7-4EB1-9A17-8AE5AB794ACC}|equipment_store\\equipment_store.csproj|solutionrelative:equipment_store\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\CartController.cs",
+              "RelativeToolTip": "equipment_store\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAlwGUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:14:21.421Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAG0BAAAAAAAAAAAowHYBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T10:25:23.421Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_NotificationPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T17:13:13.333Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "equipment_store\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:16:26.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "equipment_store\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:16:26.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T09:13:11.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\CartItemModel.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Models\\CartItemModel.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\CartItemModel.cs",
+              "RelativeToolTip": "equipment_store\\Models\\CartItemModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T07:53:36.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "equipment_store\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:16:25.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\ViewModels\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Models\\ViewModels\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\ViewModels\\CartItemViewModel.cs",
+              "RelativeToolTip": "equipment_store\\Models\\ViewModels\\CartItemViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:11:42.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T09:13:00.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T09:41:56.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T10:29:48.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T10:33:17.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T10:33:20.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T09:12:57.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeDocumentMoniker": "equipment_store\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeToolTip": "equipment_store\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T09:12:58.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "font-awesome.min.css",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\font-awesome.min.css",
+              "RelativeDocumentMoniker": "equipment_store\\wwwroot\\css\\font-awesome.min.css",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\font-awesome.min.css",
+              "RelativeToolTip": "equipment_store\\wwwroot\\css\\font-awesome.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-12T10:27:30.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "equipment_store\\Controllers\\BrandController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:16:24.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\DataContext.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Repository\\DataContext.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\DataContext.cs",
+              "RelativeToolTip": "equipment_store\\Repository\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:05:42.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BrandsViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\Components\\BrandsViewComponent.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Repository\\Components\\BrandsViewComponent.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\Components\\BrandsViewComponent.cs",
+              "RelativeToolTip": "equipment_store\\Repository\\Components\\BrandsViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:05:41.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoriesViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\Components\\CategoriesViewComponent.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Repository\\Components\\CategoriesViewComponent.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\Components\\CategoriesViewComponent.cs",
+              "RelativeToolTip": "equipment_store\\Repository\\Components\\CategoriesViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:05:42.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SessionExtendsions.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\SessionExtendsions.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Repository\\SessionExtendsions.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Repository\\SessionExtendsions.cs",
+              "RelativeToolTip": "equipment_store\\Repository\\SessionExtendsions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:29:43.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "equipment_store\\Models\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:18:02.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "equipment_store\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:18:01.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BrandModel.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\BrandModel.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Models\\BrandModel.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\BrandModel.cs",
+              "RelativeToolTip": "equipment_store\\Models\\BrandModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:16:30.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Models\\ProductModel.cs",
+              "RelativeToolTip": "equipment_store\\Models\\ProductModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:18:01.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "equipment_store\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "equipment_store\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:16:26.548Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
