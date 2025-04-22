@@ -1,0 +1,178 @@
+﻿@model equipment_store.Models.ViewModels.CartItemViewModel
+
+<body>
+	<section id="cart_items">
+		<div class="container">
+			<div class="breadcrumbs">
+				<ol class="breadcrumb">
+					<li><a href="#">Home</a></li>
+					<li class="active">Shopping Cart</li>
+				</ol>
+			</div>
+			<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+							<td class="image">Item</td>
+							<td class="description"></td>
+							<td class="price">Price</td>
+							<td class="quantity">Quantity</td>
+							<td class="total">Total</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+						@if(@Model.CartItems.Count>0)
+						{
+							@foreach (var item in Model.CartItems)
+							{
+								<tr>
+									<td class="cart_product" style="padding-right:54px">
+										<a asp-action="Details" asp-controller="Product" asp-route-Id="@item.ProductId"><img style="width:80px; object-fit:cover" src="~/media/products/@item.Image" alt=""></a>
+									</td>
+									<td class="cart_description">
+										<h4><a href="">@item.ProductName</a></h4>
+										<p>Web ID: @item.ProductId</p>
+									</td>
+									<td class="cart_price">
+										<p style="margin:0px">@item.Price.ToString("#,##0 VNĐ")</p>
+									</td>
+									<td >
+										
+											<a style="margin:0px 4px" class="btn btn-primary btn-sm" asp-action="Increase" asp-controller="Cart" asp-route-Id="@item.ProductId"> + </a>
+											<input  class="cart_quantity_input" type="text" name="quantity" value="@item.Quantity" autocomplete="off" size="2">
+											<a style="margin:0px 4px" class="btn btn-primary btn-sm" asp-action="Decrease" asp-controller="Cart" asp-route-Id="@item.ProductId"> - </a>
+
+							
+									</td>
+									<td class="cart_total">
+										<p style="margin:0px" class="cart_total_price">@item.Total().ToString("#,##0 VNĐ")</p>
+									</td>
+									<td class="cart_delete">
+										<a style="margin-right:16px" class="cart_quantity_delete" asp-action="Remove" asp-controller="Cart" asp-route-Id="@item.ProductId"><i class="fa fa-times"></i></a>
+									</td>
+								</tr>
+							}
+							<tr>
+								<td colspan="6" align="right">
+									<h4 style="margin-right:16px">Grand Total: @Model.GranTotal.ToString("#,##0 VNĐ")</h4>
+								
+								</td>
+							</tr>
+							<tr>
+								<td colspan="6" align="right">
+									<a style="margin-right:12px" asp-action="Clear" asp-controller="Cart">
+										<input class="btn btn-danger" value="Clear" />
+									</a>
+									
+
+								</td>
+							</tr>
+							@if(User.Identity?.IsAuthenticated??false)
+							{
+								<tr>
+									<td colspan="6" align="right">
+										<a style="margin-right:12px" asp-action="Checkout" asp-controller="Checkout">
+											<input class="btn btn-primary" value="Check out" />
+										</a>
+
+
+									</td>
+								</tr>
+							}
+						
+						}
+						else
+						{
+							<tr>
+								<td colspan="5" align="center">
+									<img src="https://cdn0.fahasa.com/skin//frontend/ma_vanese/fahasa/images/checkout_cart/ico_emptycart.svg">
+									<h4>Your cart is empty</h4>
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section> <!--/#cart_items-->
+
+	<section id="do_action">
+		<div class="container">
+			<div class="heading">
+				<h3>What would you like to do next?</h3>
+				<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="chose_area">
+						<ul class="user_option">
+							<li>
+								<input type="checkbox">
+								<label>Use Coupon Code</label>
+							</li>
+							<li>
+								<input type="checkbox">
+								<label>Use Gift Voucher</label>
+							</li>
+							<li>
+								<input type="checkbox">
+								<label>Estimate Shipping & Taxes</label>
+							</li>
+						</ul>
+						<ul class="user_info">
+							<li class="single_field">
+								<label>Country:</label>
+								<select>
+									<option>United States</option>
+									<option>Bangladesh</option>
+									<option>UK</option>
+									<option>India</option>
+									<option>Pakistan</option>
+									<option>Ucrane</option>
+									<option>Canada</option>
+									<option>Dubai</option>
+								</select>
+
+							</li>
+							<li class="single_field">
+								<label>Region / State:</label>
+								<select>
+									<option>Select</option>
+									<option>Dhaka</option>
+									<option>London</option>
+									<option>Dillih</option>
+									<option>Lahore</option>
+									<option>Alaska</option>
+									<option>Canada</option>
+									<option>Dubai</option>
+								</select>
+
+							</li>
+							<li class="single_field zip-field">
+								<label>Zip Code:</label>
+								<input type="text">
+							</li>
+						</ul>
+						<a class="btn btn-default update" href="">Get Quotes</a>
+						<a class="btn btn-default check_out" href="">Continue</a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="total_area">
+						<ul>
+							<li>Cart Sub Total <span>$59</span></li>
+							<li>Eco Tax <span>$2</span></li>
+							<li>Shipping Cost <span>Free</span></li>
+							<li>Total <span>$61</span></li>
+						</ul>
+						<a class="btn btn-default update" href="">Update</a>
+						<a class="btn btn-default check_out" href="">Check Out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#do_action-->
+
+	
+</body>

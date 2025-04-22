@@ -1,0 +1,669 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\equipment_store.bundle.scp.css",
+      "PackagePath": "staticwebassets\\equipment_store.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\price-range.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\404\\404.png",
+      "PackagePath": "staticwebassets\\images\\404\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\blog-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\blog-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\blog-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\man-four.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-four.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\man-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\man-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\man-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\images\\blog\\socials.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\cart\\one.png",
+      "PackagePath": "staticwebassets\\images\\cart\\one.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\cart\\three.png",
+      "PackagePath": "staticwebassets\\images\\cart\\three.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\cart\\two.png",
+      "PackagePath": "staticwebassets\\images\\cart\\two.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\images\\home\\bg_border.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\girl1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\girl2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\girl3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\iframe1.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe1.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\iframe2.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe2.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\iframe3.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe3.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\iframe4.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe4.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\logo.png",
+      "PackagePath": "staticwebassets\\images\\home\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\map.png",
+      "PackagePath": "staticwebassets\\images\\home\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\new.png",
+      "PackagePath": "staticwebassets\\images\\home\\new.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner1.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner2.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner3.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner4.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\pricing.png",
+      "PackagePath": "staticwebassets\\images\\home\\pricing.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\product3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\product4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\product5.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\product6.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\recommend1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\recommend2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\recommend3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\sale.png",
+      "PackagePath": "staticwebassets\\images\\home\\sale.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\images\\home\\searchicon.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\shipping.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\macbook.jpg",
+      "PackagePath": "staticwebassets\\images\\macbook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\pcgaming.jpg",
+      "PackagePath": "staticwebassets\\images\\pcgaming.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\rating.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\share.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\product-details\\similar1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\product-details\\similar2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\product-details\\similar3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\robotg-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\robotg-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\shop\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\advertisement.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\shop\\product10.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\shop\\product11.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\shop\\product12.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\shop\\product7.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\shop\\product8.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\shop\\product9.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\03217a51-1a9e-4a81-814a-040c4bd28836_tải xuống (4).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\03217a51-1a9e-4a81-814a-040c4bd28836_tải xuống (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\0d730674-d4c2-4128-9cc2-a107f3f9b6fe_maxresdefault.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0d730674-d4c2-4128-9cc2-a107f3f9b6fe_maxresdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\10f4f535-24d5-4084-9226-a2e42e88afa0_nzf7mlkli5k71.png",
+      "PackagePath": "staticwebassets\\media\\products\\10f4f535-24d5-4084-9226-a2e42e88afa0_nzf7mlkli5k71.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\1f2e6715-49b5-416a-80d7-103d2f1da9d4_tải xuống (1).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1f2e6715-49b5-416a-80d7-103d2f1da9d4_tải xuống (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\30185196-0a32-4f3b-954a-87f6cb787ca9_tải xuống (3).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\30185196-0a32-4f3b-954a-87f6cb787ca9_tải xuống (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\4e253301-d6bf-4fb3-a7c9-03398f8e336b_tải xuống (6).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4e253301-d6bf-4fb3-a7c9-03398f8e336b_tải xuống (6).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\7df366d7-5793-44a0-b4bc-318ef01caf2e_tải xuống (9).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\7df366d7-5793-44a0-b4bc-318ef01caf2e_tải xuống (9).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\8796770f-1cdb-4d2e-841a-14748c351524_tải xuống (7).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8796770f-1cdb-4d2e-841a-14748c351524_tải xuống (7).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\89883c08-08bf-4e79-a0fa-9a089416f140_tải xuống (5).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\89883c08-08bf-4e79-a0fa-9a089416f140_tải xuống (5).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\8ed85a93-4bed-4b73-b96f-c56aefda26eb_robotg-removebg-preview.png",
+      "PackagePath": "staticwebassets\\media\\products\\8ed85a93-4bed-4b73-b96f-c56aefda26eb_robotg-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\8ffbc588-918e-43ca-809f-0c33bc3b9bff_tải xuống (8).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8ffbc588-918e-43ca-809f-0c33bc3b9bff_tải xuống (8).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\c8a44150-daa4-4d5b-a1a2-7cd3b6aa4a0f_tải xuống (7).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c8a44150-daa4-4d5b-a1a2-7cd3b6aa4a0f_tải xuống (7).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\fe583d6f-d0b6-484b-a666-f8d8b1e6eb9c_tải xuống (2).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\fe583d6f-d0b6-484b-a666-f8d8b1e6eb9c_tải xuống (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\fe6e1303-d789-4310-a64f-4f273646abb2_tải xuống (7).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\fe6e1303-d789-4310-a64f-4f273646abb2_tải xuống (7).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\macbook.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\macbook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\pcgaming.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\pcgaming.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\00da7888-48f3-4877-9a5b-53de02ee3acf_shopping.webp",
+      "PackagePath": "staticwebassets\\media\\sliders\\00da7888-48f3-4877-9a5b-53de02ee3acf_shopping.webp"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\19c0a05b-ee66-4ec1-b65d-3ca5adc80c44_OIP.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\19c0a05b-ee66-4ec1-b65d-3ca5adc80c44_OIP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\25edd728-4910-421b-9ad8-3db4523ed766_OIP (2).jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\25edd728-4910-421b-9ad8-3db4523ed766_OIP (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\469bdacd-2bbd-4fe5-af69-1ac145f78c81_images.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\469bdacd-2bbd-4fe5-af69-1ac145f78c81_images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\4c03301d-338d-4720-ac69-2cc5788ee4e2_nzf7mlkli5k71.png",
+      "PackagePath": "staticwebassets\\media\\sliders\\4c03301d-338d-4720-ac69-2cc5788ee4e2_nzf7mlkli5k71.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\72555c2e-4c84-42c3-a68f-e547770c6f4a_OIP (1).jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\72555c2e-4c84-42c3-a68f-e547770c6f4a_OIP (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\ad8e6941-435a-4e69-91b6-fbe66cda2f05_ZffYwe6rRqd5ZG2EH6c4FA-1200-80.png",
+      "PackagePath": "staticwebassets\\media\\sliders\\ad8e6941-435a-4e69-91b6-fbe66cda2f05_ZffYwe6rRqd5ZG2EH6c4FA-1200-80.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\e9626edb-5505-47fa-88e2-9cb95987c3ef_maxresdefault.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\e9626edb-5505-47fa-88e2-9cb95987c3ef_maxresdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\sliders\\ff72218b-6bec-4827-8b97-31857c83e602_black-myth-wukong-1l4n1.png",
+      "PackagePath": "staticwebassets\\media\\sliders\\ff72218b-6bec-4827-8b97-31857c83e602_black-myth-wukong-1l4n1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.equipment_store.props",
+      "PackagePath": "build\\equipment_store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.equipment_store.props",
+      "PackagePath": "buildMultiTargeting\\equipment_store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.equipment_store.props",
+      "PackagePath": "buildTransitive\\equipment_store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.equipment_store.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

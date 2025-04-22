@@ -1,0 +1,70 @@
+﻿@model IEnumerable<OrderModel>
+
+@{
+    ViewData["title"] = "List order";
+    Paginate pager = new Paginate();
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title></title></head>
+    <body>
+
+    <table class="table" id="myTable">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Ordercode</th>
+                <th scope="col">Username</th>
+                <th scope="col">Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Option</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <th scope="row">@item.Id</th>
+                    <td>@item.OrderCode</td>
+                    <td>@item.UserName</td>
+                    <td>@item.CreatedDate</td>
+                    @if (@item.Status == 1)
+                    {
+                        <td>Đơn hàng mới</td>
+                    }
+                    else
+                    {
+                        <td>Đã xử lý</td>
+                    }
+
+
+                    <td style="display:flex;">
+                        <a style="margin-right:6px" class="btn btn-warning btn-sm" asp-action="ViewOrder" asp-controller="Order" asp-route-Ordercode="@item.OrderCode"><i class="fa-solid fa-eye"></i></a>
+                        <a class="btn btn-danger btn-sm" asp-action="Remove" asp-controller="Order" asp-route-Ordercode="@item.OrderCode"><i class="fa-solid fa-trash"></i></a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @* <partial name="_Paging" model="@pager"></partial> *@
+
+    </body>
+</html>
+
+
+
+
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}

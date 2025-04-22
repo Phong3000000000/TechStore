@@ -1,0 +1,313 @@
+﻿@model ProductDetailsViewModel
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        .star-rating {
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+        }
+
+            .star-rating label {
+                margin-right: 10px;
+                font-weight: bold;
+            }
+
+        .stars {
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+            .stars .star {
+                display: inline-block; /* Đảm bảo các sao nằm ngang */
+                position: relative;
+                color: #ccc; /* Màu sao rỗng */
+                margin-right: 2px; /* Khoảng cách giữa các sao */
+            }
+
+                .stars .star.filled {
+                    color: #f39c12; /* Màu sao đầy */
+                }
+
+                .stars .star:hover,
+                .stars .star:hover ~ .star {
+                    color: #ccc; /* Đặt lại màu khi hover */
+                }
+    </style>
+</head>
+<body>
+    <div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        @Html.Partial("_SidebarPartial")
+                    </div>
+
+                    <div class="col-sm-9 padding-right">
+                        <div class="product-details">
+                            <div class="col-sm-5">
+                                <div class="view-product">
+                                    <img src="~/media/products/@Model.ProductDetails.Image" alt="" />
+                                    <h3>ZOOM</h3>
+                                </div>
+                                <div id="similar-product" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
+                                            <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
+                                            <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
+                                            <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
+                                            <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href=""><img src="images/product-details/similar1.jpg" alt=""></a>
+                                            <a href=""><img src="images/product-details/similar2.jpg" alt=""></a>
+                                            <a href=""><img src="images/product-details/similar3.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <a class="left item-control" href="#similar-product" data-slide="prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                    <a class="right item-control" href="#similar-product" data-slide="next">
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="product-information">
+                                    <img src="images/product-details/new.jpg" class="newarrival" alt="" />
+                                    <h2>@Model.ProductDetails.Name</h2>
+                                    <p>Mã sản phẩm: @Model.ProductDetails.Id</p>
+                                    <img src="images/product-details/rating.png" alt="" />
+                                    <span>
+                                        <span>@Model.ProductDetails.Price.ToString("#,##0 VNĐ")</span>
+                                        <label>Số lượng:</label>
+                                        <input type="text" value="1" />
+                                        <button class="btn btn-default add-to-cart cart" data-product_id="@Model.ProductDetails.Id">
+                                            <i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+                                        </button>
+                                    </span>
+                                    <p><b>Tình trạng:</b> Còn hàng</p>
+                                    <p><b>Danh mục:</b> @Model.ProductDetails.Category.Name</p>
+                                    <p><b>Thương hiệu:</b> @Model.ProductDetails.Brand.Name</p>
+                                    <a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-tab shop-details-tab">
+                            <div class="col-sm-12">
+                                <ul class="nav nav-tabs">
+                                    <li><a href="#details" data-toggle="tab">Chi tiết</a></li>
+                            @*         <li><a href="#companyprofile" data-toggle="tab">Hồ sơ công ty</a></li>
+                                    <li><a href="#tag" data-toggle="tab">Thẻ</a></li> *@
+                                    <li class="active"><a href="#reviews" data-toggle="tab">Đánh giá (5)</a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane fade" id="details">
+                                    @Html.Raw(@Model.ProductDetails.Description)
+                                </div>
+@* 
+                                <div class="tab-pane fade" id="companyprofile">
+                                    <div class="col-sm-3">
+                                        <div class="product-image-wrapper">
+                                            <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                    <img src="images/home/gallery1.jpg" alt="" />
+                                                    <h2>$56</h2>
+                                                    <p>Easy Polo Black Edition</p>
+                                                    <button type="button" class="btn btn-default add-to-cart">
+                                                        <i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="tag">
+                                    <div class="col-sm-3">
+                                        <div class="product-image-wrapper">
+                                            <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                    <img src="images/home/gallery1.jpg" alt="" />
+                                                    <h2>$56</h2>
+                                                    <p>Easy Polo Black Edition</p>
+                                                    <button type="button" class="btn btn-default add-to-cart">
+                                                        <i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> *@
+
+                                <div class="tab-pane fade active in" id="reviews">
+                                    <div class="col-sm-12">
+                                        <ul>
+                                            <li><a href=""><i class="fa fa-user"></i>EUGEN</a></li>
+                                            <li><a href=""><i class="fa fa-clock-o"></i>12:41 PM</a></li>
+                                            <li><a href=""><i class="fa fa-calendar-o"></i>31 DEC 2014</a></li>
+                                        </ul>
+                                        <p><b>Viết đánh giá của bạn</b></p>
+
+                                        <form autocomplete="off" asp-action="CommentProduct" asp-controller="Product" method="post">
+                                            <span>
+                                                <input type="hidden" asp-for="@Model.ProductDetails.Id" name="ProductId" />
+
+                                                <div class="star-rating">
+                                                    <label>Đánh giá:</label>
+                                                    <div style="display:flex" class="stars">
+                                                        <span class="star" data-value="1"><i class="fa fa-star"></i></span>
+                                                        <span class="star" data-value="2"><i class="fa fa-star"></i></span>
+                                                        <span class="star" data-value="3"><i class="fa fa-star"></i></span>
+                                                        <span class="star" data-value="4"><i class="fa fa-star"></i></span>
+                                                        <span class="star" data-value="5"><i class="fa fa-star"></i></span>
+                                                    </div>
+                                                    <input name="Star" type="hidden" value="0" />
+                                                </div>
+
+                                                <label>Tên</label>
+                                                <div>
+                                                    <input asp-for="@Model.Name" type="text" placeholder="Tên của bạn" />
+                                                    <span asp-validation-for="@Model.Name" class="text-danger" />
+                                                </div>
+
+                                                <label>Email</label>
+                                                <div>
+                                                    <input asp-for="Email" type="email" placeholder="Địa chỉ email" />
+                                                    <span asp-validation-for="Email" class="text-danger" />
+                                                </div>
+                                            </span>
+
+                                            <label>Bình luận</label>
+                                            <div>
+                                                <textarea asp-for="@Model.Comment"></textarea>
+                                                <span asp-validation-for="@Model.Comment" class="text-danger" />
+                                            </div>
+               
+                                            <button type="submit" class="btn btn-default pull-right">
+                                                Gửi
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="recommended_items">
+                            <h2 class="title text-center">Sản phẩm đề xuất</h2>
+                            <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        @foreach (var item in @ViewBag.relatedproducts as IEnumerable<ProductModel>)
+                                        {
+                                            <div class="col-sm-4">
+                                                <div class="product-image-wrapper">
+                                                    <div class="single-products">
+                                                        <div class="productinfo text-center">
+                                                            <img src="~/media/products/@item.Image" alt="" />
+                                                            <h2>@item.Price.ToString("#,##0 VNĐ")</h2>
+                                                            <p>@item.Name</p>
+                                                            <button class="btn btn-default add-to-cart" data-product_id="@item.Id">
+                                                                <i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                                <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+        <script>
+            $(document).ready(function () {
+                // Xử lý đánh giá sao
+                $('.stars .star').on('click', function () {
+                    var value = $(this).data('value');
+
+                    // Cập nhật giao diện sao
+                    $('.stars .star').each(function () {
+                        var starValue = $(this).data('value');
+                        $(this).removeClass('filled');
+                        if (starValue <= value) {
+                            $(this).addClass('filled');
+                        }
+                    });
+
+                    // Cập nhật giá trị trường ẩn
+                    $('input[name="Star"]').val(value);
+                });
+
+                // Xử lý hover để xem trước đánh giá
+                $('.stars .star').on('mouseover', function () {
+                    var value = $(this).data('value');
+                    $('.stars .star').each(function () {
+                        var starValue = $(this).data('value');
+                        $(this).removeClass('filled');
+                        if (starValue <= value) {
+                            $(this).addClass('filled');
+                        }
+                    });
+                });
+
+                // Khôi phục trạng thái khi rời chuột
+                $('.stars').on('mouseout', function () {
+                    var currentValue = parseFloat($('input[name="Star"]').val()) || 0;
+                    $('.stars .star').each(function () {
+                        var starValue = $(this).data('value');
+                        $(this).removeClass('filled');
+                        if (starValue <= currentValue) {
+                            $(this).addClass('filled');
+                        }
+                    });
+                });
+
+                // Xử lý nút "Add to cart"
+                $('.add-to-cart').click(function () {
+                    var Id = $(this).data("product_id");
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("Add", "Cart")",
+                        data: { Id: Id },
+                        success: function (result) {
+                            if (result) {
+                                Swal.fire({
+                                    title: "Thêm giỏ hàng thành công",
+                                    icon: "success",
+                                    draggable: true
+                                });
+                            }
+                        }
+                    });
+                });
+            });
+        </script>
+    }
+</body>
+</html>

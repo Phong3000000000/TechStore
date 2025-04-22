@@ -1,0 +1,65 @@
+﻿@model equipment_store.Models.ProductModel
+
+<div class="col-9-md">
+    <form style="width:50%; margin:20px auto" asp-action="Edit" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <h2 style="text-align:center">Cập nhật sản phẩm</h2>
+        <div class="form-group">
+            <label>Image</label>
+            <input class="form-control" asp-for="ImageUpload" />
+            <div style="text-align:center">
+                <img width="150px" src="~/media/products/@Model.Image" />
+            </div>
+         
+            <span asp-validation-for="ImageUpload" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Name</label>
+            <input class="form-control" asp-for="Name"/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Slug</label>
+            <input class="form-control" asp-for="slug" />
+            <span asp-validation-for="slug" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" asp-for="Description" rows="4"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Price</label>
+            <input class="form-control" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Brand</label>
+            <select class="form-control" asp-for="BrandId" asp-items="@ViewBag.Brands"></select>
+            <span asp-validation-for="BrandId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Category</label>
+            <select class="form-control" asp-for="CategoryId" asp-items="@ViewBag.Categories"></select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+   
+        <div style="float:right">
+            <a asp-action="Index" asp-controller="Product" class="btn btn-danger btn-sm">Back</a>
+            <input type="submit" class="btn btn-success btn-sm" value="Edit" />
+
+        </div>
+   
+    </form>
+
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Description');
+    </script>
+}

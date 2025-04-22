@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IdentityRole
+
+<div class="col-9-md">
+    <form style="width:50%; margin:20px auto" asp-action="Edit" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <h2 style="text-align:center">Cập nhật role</h2>
+        <div class="form-group">
+            <label>Name</label>
+            <input asp-for="Name" required class="form-control" />
+            <span asp-validation-for="Name" class="text-danger" />
+        </div>
+        <div class="form-group" style="float:right">
+            <a asp-action="Index" class="btn btn-danger btn-sm">Back</a>
+            <input value="Edit" type="submit" class="btn btn-success btn-sm" />
+        </div>
+
+
+    </form>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+
+}

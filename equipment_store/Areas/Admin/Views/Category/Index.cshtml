@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CategoryModel>
+
+@{
+    ViewData["title"] = "List category";
+    Paginate pager = new Paginate();
+    int pageNo = 0;
+    if(ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+
+<a class="btn btn-success btn-sm" asp-action="Create" asp-controller="Category"><i class="fa-solid fa-plus"></i></a>
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Slug</th>
+            <th scope="col">Status</th>
+            <th scope="col">Option</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                <td>@Html.Raw(@item.Description)</td>
+                <td>@item.slug</td>
+                <td>
+                    @if (item.Status == "1")
+                    {
+                        <span class="text text-success">Hiển thị</span>
+                    }
+                    else
+                    {
+                        <span class="text text-danger">Ẩn</span>
+                    }
+
+                </td>
+
+                <td style="display:flex;">
+                    <a style="margin-right:6px" class="btn btn-warning btn-sm" asp-action="Edit" asp-controller="Category" asp-route-Id="@item.Id"><i class="fa-solid fa-pen-nib"></i></a>
+                    <a class="btn btn-danger btn-sm" asp-action="Remove" asp-controller="Category" asp-route-Id="@item.Id"><i class="fa-solid fa-trash"></i></a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+@* <partial name="_Paging" model="@pager"/> *@
+
+
+
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}
+
