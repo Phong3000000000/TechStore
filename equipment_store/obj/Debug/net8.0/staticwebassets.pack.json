@@ -141,6 +141,10 @@
       "PackagePath": "staticwebassets\\images\\home\\logo.png"
     },
     {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\home\\logo2.png"
+    },
+    {
       "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\map.png",
       "PackagePath": "staticwebassets\\images\\home\\map.png"
     },
@@ -215,6 +219,14 @@
     {
       "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\shipping.jpg",
       "PackagePath": "staticwebassets\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\soldout.png",
+      "PackagePath": "staticwebassets\\images\\home\\soldout.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\home\\soldout2.png",
+      "PackagePath": "staticwebassets\\images\\home\\soldout2.png"
     },
     {
       "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\images\\macbook.jpg",
@@ -547,6 +559,14 @@
     {
       "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\logo\\ea30f10f-3f8f-45b3-ae4f-8568a66b2dae_ChatGPT Image 20_45_54 22 thg 4, 2025.png",
+      "PackagePath": "staticwebassets\\media\\logo\\ea30f10f-3f8f-45b3-ae4f-8568a66b2dae_ChatGPT Image 20_45_54 22 thg 4, 2025.png"
+    },
+    {
+      "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\logo\\eda984fb-4fa3-488d-9389-62b28bb86432_logo2.png",
+      "PackagePath": "staticwebassets\\media\\logo\\eda984fb-4fa3-488d-9389-62b28bb86432_logo2.png"
     },
     {
       "Id": "C:\\Users\\PHONG\\Downloads\\equipment_store\\equipment_store\\wwwroot\\media\\products\\03217a51-1a9e-4a81-814a-040c4bd28836_tải xuống (4).jpg",

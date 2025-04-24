@@ -1,0 +1,64 @@
+﻿@model equipment_store.Models.ProductQuantityModel
+
+<div class="col-9-md">
+    <form style="width:50%; margin:20px auto" asp-action="AddQuantity_Post" enctype="multipart/form-data">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <input type="hidden" asp-for="ProductId" value="@ViewBag.Id" />
+        <input type="hidden" asp-for="DateCreated" value="@DateTime.Now" />
+        
+        <h2 style="text-align:center">Tạo số lượng</h2>
+
+        <div class="form-group">
+            <label>Quantity</label>
+            <input min="1" value="1" max="10000" asp-for="Quantity" class="form-control" />
+            <span asp-validation-for="Quantity" class="text-danger" />
+        </div>
+
+        <div class="form-group" style="float:right">
+            <a asp-action="Index" class="btn btn-danger btn-sm">Back to list product</a>
+            <input value="Create" type="submit" class="btn btn-success btn-sm" />
+        </div>
+
+
+    </form>
+
+</div>
+
+
+<table class="table" @* id="myTable" *@>
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Product</th>
+            <th scope="col">Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @ViewBag.ProductQuantity as IEnumerable<ProductQuantityModel>)
+        {
+            <tr>
+
+                <th scope="row">@item.Id</th>
+                <td>@item.Quantity</td>
+                <td>@item.ProductId</td>
+                <td>@item.DateCreated</td>
+
+            </tr>
+        }
+        <tr>
+            <td style="font-weight:bold">Tổng: </td>
+            <td>@ViewBag.Sum</td>
+            <td colspan="2"></td>
+        </tr>
+    </tbody>
+</table>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+}

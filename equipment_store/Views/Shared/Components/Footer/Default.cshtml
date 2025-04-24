@@ -1,0 +1,29 @@
+﻿@model ContactModel
+
+<footer class="footer bg-light pt-5 pb-4" style="margin-top:20px">
+    <div class="container">
+        <div class="row gy-4 align-items-start">
+            <!-- Logo & Giới thiệu -->
+            <div class="col-lg-3 text-center text-lg-start">
+                <img src="~/media/logo/@Model.LogoImg" alt="Teachstore Logo" class="img-fluid mb-3" style="max-width: 120px;">
+                <p class="text-muted small")>"@Html.Raw(@Model.Description)</p>
+            </div>
+
+            <!-- Bản đồ -->
+            <div class="col-lg-6">
+                <div class="ratio ratio-4x3 rounded shadow-sm overflow-hidden border" style="border-color: #dee2e6;">
+                    @Html.Raw(Model.Map)
+                </div>
+            </div>
+
+            <!-- Thông tin liên hệ -->
+            <div class="col-lg-3 text-center text-lg-start" >
+
+                <h5 style="float:left" class="mb-3 fw-bold text-primary">Name: @Model.Name</h5>
+                <h5 style="float:left" class="mb-3  text-primary">Email: @Model.Email</h5>
+                <h5 style="float:left" class="mb-3  text-primary">Phone: @Model.Phone</h5>
+            </div>
+        </div>
+
+    </div>
+</footer>

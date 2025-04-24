@@ -891,15 +891,15 @@ h2.title {
 }
 
 .product-overlay {
-  background:#FE980F;
-  top: 0;
-  display: none;
-  height: 0;
-  position: absolute;
-  transition: height 500ms ease 0s;
-  width: 100%;
-  display: block;
-  opacity:;
+	background: rgba(254, 152, 15, 0.4);
+	top: 0;
+	display: none;
+	height: 0;
+	position: absolute;
+	transition: height 500ms ease 0s;
+	width: 100%;
+	display: block;
+	opacity:;
 }
 
 .single-products:hover .product-overlay {
@@ -911,7 +911,7 @@ h2.title {
 .product-overlay .overlay-content {
   bottom: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 98px;
   text-align: center;
   width: 100%;
 }

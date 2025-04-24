@@ -26,6 +26,9 @@ namespace equipment_store.Models
 		public BrandModel Brand { get; set; }
 		public string Image { get; set; } 
 
+		public int Quantity { get; set; }
+		public int Sold { get; set; }
+
 		public RatingModel Rating { get; set; }
 		[NotMapped]
 		[FileExtension]

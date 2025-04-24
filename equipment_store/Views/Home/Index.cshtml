@@ -24,15 +24,35 @@
 								<p>Category: @item.Category.Name</p>
 								<p>Brand: @item.Brand.Name</p>
 							</a>
-							<button class="btn btn-default add-to-cart" data-product_id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+
+							@if(item.Quantity>0)
+							{
+								<button class="btn btn-default add-to-cart" data-product_id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+							}
+							else
+							{
+								<button class="btn btn-default add-to-cart" data-product_id="@item.Id" disabled><i class="fa fa-shopping-cart"></i>Add to cart</button>
+								<div class="product-overlay">
+									<div class="overlay-content">
+									
+										<img src="~/images/home/soldout2.png" />
+					
+									</div>
+								</div>
+							}
+
 						</div>
 						
 					</div>
 					<div class="choose">
-						<ul class="nav nav-pills nav-justified">
-							<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-							<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-						</ul>
+						@if(User.Identity?.IsAuthenticated??false)
+						{
+							<ul class="nav nav-pills nav-justified">
+								<li><a class="add-to-wishlist" data-product_id="@item.Id"><i class="fa fa-plus-square "></i>Add to wishlist</a></li>
+								<li><a class="add-to-compare" data-product_id="@item.Id"><i class="fa fa-plus-square"></i>Add to compare</a></li>
+							</ul>
+						}
+					
 					</div>
 				</div>
 			</div>
@@ -64,6 +84,63 @@
 
 							Swal.fire({
 								title: "Thêm giỏ hàng thành công",
+								icon: "success",
+								draggable: true
+							});
+						}
+					}
+
+				});
+			});
+		})
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$('.add-to-wishlist').click(function () {
+				var Id = $(this).data("product_id");
+
+				//alert(product_id);
+
+				$.ajax({
+					type: "POST",
+					url: "@Url.Action("AddWishlist", "Home")",
+					data: { Id: Id }, // Send data to the server
+
+					success: function (result) {
+						// Handle successful update
+						if (result) {
+
+							Swal.fire({
+								title: "Thêm sản phẩm yêu thích thành công",
+								icon: "success",
+								draggable: true
+							});
+						}
+					}
+
+				});
+			});
+		})
+	</script>
+	<script>
+		$(document).ready(function () {
+			$('.add-to-compare').click(function () {
+				var Id = $(this).data("product_id");
+
+				//alert(product_id);
+
+				$.ajax({
+					type: "POST",
+					url: "@Url.Action("AddCompare", "Home")",
+					data: { Id: Id }, // Send data to the server
+
+					success: function (result) {
+						// Handle successful update
+						if (result) {
+
+							Swal.fire({
+								title: "Thêm sản phẩm so sánh thành công",
 								icon: "success",
 								draggable: true
 							});

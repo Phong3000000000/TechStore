@@ -220,5 +220,37 @@ namespace equipment_store.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
+
+        public async Task<IActionResult> AddQuantity(int Id)
+        {
+            var product = await _dataContext.ProductQuantities.Where(x => x.ProductId == Id).ToListAsync();
+            ViewBag.Id = Id;
+
+            ViewBag.ProductQuantity= product;
+            ViewBag.Sum = product.Sum(x => x.Quantity);
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddQuantity_Post(ProductQuantityModel productquantity)
+        {
+            var product = await _dataContext.Producs.FindAsync(productquantity.ProductId);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            product.Quantity += productquantity.Quantity;
+
+
+            _dataContext.ProductQuantities.Add(productquantity);
+            await _dataContext.SaveChangesAsync();
+            TempData["Success"] = "Thêm số lượng thành công";
+            return RedirectToAction("AddQuantity", "Product", new {Id= productquantity.ProductId});
+        }
+
+
+
+
     }
 }
